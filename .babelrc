@@ -1,0 +1,8 @@
+// use .babelrc instead of babel.config.js to avoid issue with module vs commonjs syntax
+
+{
+  "presets": [
+    "@babel/preset-env",
+    ["@babel/preset-react", { "runtime": "automatic" }]
+  ]
+}

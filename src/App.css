@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.selected {
+  color: red;
+  border: 1px solid red;
+  padding: 2px;
+}
+
+li {
+  cursor: pointer;
+}
