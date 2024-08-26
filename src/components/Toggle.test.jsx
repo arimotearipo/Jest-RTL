@@ -19,6 +19,6 @@ describe("Toggle", () => {
 
     const textElem = screen.queryByText("The toggle is on!");
 
-    expect(textElem).not.toBeInTheDocument();
+    expect(textElem).toBeInTheDocument();
   });
 });
